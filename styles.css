@@ -1,0 +1,40 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: hsl(212, 45%, 89%);
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+    gap: 100px;
+    
+}
+
+p{
+    font-size: 15px;
+    color: hsl(216, 15%, 48%);
+}
+
+.container{
+    display: flex; 
+    flex-direction: column;
+    background: hsl(0, 0%, 100%);
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    border-radius: 20px;
+    width: 50vw;
+}
+
+
+.container img{
+    border-radius: 5px;
+    max-width: 90%;
+}
+
+
+@media(max-width :720px) {
+    h1{
+        font-weight: 400;
+    }
+}
